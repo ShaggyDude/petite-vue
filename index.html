@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body class="p-4 border rounded m-4">
+    <!--
+    <div class="app app--select" v-cloak v-scope @mounted="onMount()">
+      <button v-if="!visible" @click="show">
+        🟢
+      </button>
+
+      <button v-if="visible" @click="hide">
+        🔴
+      </button>
+
+      <div v-if="visible">
+        <input
+          type="text"
+          v-model="data.newItem"
+          @keyup.enter="addItem()"
+        /><button @click="addItem()">
+          🚀
+        </button>
+
+        <div>
+          <select v-model="data.selectedItemId">
+            <option disabled value="">Choose item</option>
+            <option v-for="item in data.items" :value="item.id" :key="item.id">
+              {{item.title}}
+            </option>
+          </select>
+          <span
+            >{{data.items.filter(item => item.id ===
+            data.selectedItemId)?.[0]?.title}}</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="app app--list"
+      v-cloak
+      v-scope
+      v-effect="onEffect($el, data.items)"
+      @mounted="onMount($el)"
+      @unmounted="onUnmount()"
+    >
+      <ul class="list">
+        <li v-for="item in data.items" class="list-item" :key="item.id">
+          {{item.title}}
+          <button @click="removeItem(item.id)">❌</button>
+        </li>
+      </ul>
+    </div>
+  -->
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
